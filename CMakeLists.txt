@@ -15,6 +15,7 @@ add_message_files(FILES BuzzerMelody.msg
                         SetMotorSpeeds.msg
                         LED.msg
                         LEDMap.msg
+                        SmartBatteryStatus.msg
                         )
 
 generate_messages(DEPENDENCIES std_msgs)
