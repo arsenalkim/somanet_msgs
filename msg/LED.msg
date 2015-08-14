@@ -14,7 +14,7 @@ uint8 BATT_LOW  = 0
 uint8 BATT_MID  = 1
 uint8 BATT_HIGH = 2
 
-# Charging source
+# Command
 uint8 NO_DISPLAY = 0
 uint8 ERROR = 1
 uint8 NOTIFICATION = 2
