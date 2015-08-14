@@ -16,17 +16,19 @@ uint8 BATT_HIGH = 2
 
 # Command
 uint8 NO_DISPLAY = 0
-uint8 ERROR = 1
-uint8 NOTIFICATION = 2
-uint8 TURN_RIGHT = 3
-uint8 STANDBY = 4
-uint8 TURN_LEFT = 5
-uint8 MOVE_STRAIGHT = 6
+uint8 ERROR = 16
+uint8 NOTIFICATION = 32
+uint8 TURN_RIGHT = 48
+uint8 STANDBY = 64
+uint8 TURN_LEFT = 80
+uint8 MOVE_STRAIGHT = 96
  
 #how to use constants example: 
-#(STANDBY << 4)|BAT_LOW =  64
-#(STANDBY << 4)|BAT_MID =  65
-#(STANDBY << 4)|BAT_HIGH = 66
-#
+#STANDBY + BAT_LOW =  64
+#STANDBY + BAT_MID =  65
+#STANDBY + BAT_HIGH = 66
+
+#or you could do ...
+#STANDBY | BAT_MID =  65
 
 uint8 led_task_id
