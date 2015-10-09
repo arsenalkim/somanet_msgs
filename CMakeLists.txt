@@ -17,7 +17,7 @@ add_message_files(FILES BuzzerMelody.msg
                         LEDMap.msg
                         SmartBatteryStatus.msg
                         SensorControl.msg
-                        ButtonsLedsStates.msg
+                        ButtonsLeds.msg
                         )
 
 generate_messages(DEPENDENCIES std_msgs)
