@@ -17,7 +17,10 @@ add_message_files(FILES BuzzerMelody.msg
                         LEDMap.msg
                         SmartBatteryStatus.msg
                         SensorControl.msg
+<<<<<<< HEAD
                         ButtonsLedsStates.msg
+=======
+>>>>>>> parent of a0cdb78... added new mesage to control button leds
                         )
 
 generate_messages(DEPENDENCIES std_msgs)
