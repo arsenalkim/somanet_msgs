@@ -8,6 +8,7 @@ Header header
 # 64-66: Standby        64: standby/low batt        65: standby/mid batt         66:standby/full batt 
 # 80-82: Turn Left      80: turn left/low batt      81: turn left/mid batt       82:turn left/full batt 
 # 96-98: Move Straight  96: move straight/low batt  97: move straight/mid batt   98:move straight/full batt
+# 128:   Emergency      battery status irrelevant. 
 
 # Battery Status
 uint8 BATT_LOW  = 0
@@ -22,6 +23,7 @@ uint8 TURN_RIGHT = 48
 uint8 STANDBY = 64
 uint8 TURN_LEFT = 80
 uint8 MOVE_STRAIGHT = 96
+uint8 EMERGENCY = 128
  
 #how to use constants example: 
 #STANDBY + BAT_LOW =  64
