@@ -4,3 +4,4 @@
 bool emergency
 bool overcurrent
 bool overtemperature
+bool gyro_disconnected
