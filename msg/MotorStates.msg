@@ -8,5 +8,5 @@ uint16[] positions
 int16[] speeds
 # motor currents left & right in mA
 uint16[] currents
-# motor temps left & right
-uint16[] temperatures
+# motor temps left & right in Celcius * 100
+float32[] temperatures
